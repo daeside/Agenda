@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="titulos">#404040</color>
+    <color name="alta_fondo">#DFF0D4</color>
+    <color name="alta_texto">#2C7635</color>
+    <color name="buscar_fondo">#FCF8E1</color>
+    <color name="buscar_texto">#8A6D39</color>
+    <color name="modificar_fondo">#D1E4F1</color>
+    <color name="modificar_texto">#31708C</color>
+    <color name="borrar_fondo">#F2DEDC</color>
+    <color name="borrar_texto">#AC260D</color>
+</resources>

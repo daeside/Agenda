@@ -1,0 +1,55 @@
+<resources>
+    <!-- principal -->
+    <string name="app_name">Agenda</string>
+    <string name="menu_texto">Seleccione una opcion</string>
+    <string name="alta_contacto">Crear</string>
+    <string name="leer_contacto">Buscar</string>
+    <string name="modificar_contacto">Modificar</string>
+    <string name="borrar_contacto">Eliminar</string>
+    <!-- termina -->
+
+    <!-- altas -->
+    <string name="alta_titulo">Agregar Contacto</string>
+    <string name="label_nombre">Ingrese Nombre</string>
+    <string name="caja_nombre"></string>
+    <string name="label_apellido">Ingrese Apellido</string>
+    <string name="caja_apellido"></string>
+    <string name="label_correo">Ingrese Correo</string>
+    <string name="caja_correo"></string>
+    <string name="label_fisica">Ingrese Direccion Fisica</string>
+    <string name="caja_fisica"></string>
+    <string name="label_telefono">Ingrese Telefono</string>
+    <string name="caja_telefono"></string>
+    <string name="guardar">Guardar</string>
+    <!-- termina -->
+
+    <!-- busqueda -->
+    <string name="busqueda_titulo">Buscar Contactos por Correo</string>
+    <string name="label_buscar">Ingrese correo</string>
+    <string name="caja_buscar"></string>
+    <string name="boton_buscar">Buscar</string>
+    <string name="boton_limpiar">Limpiar</string>
+    <string name="id_show"></string>
+    <string name="nombre_show"></string>
+    <string name="apellido_show"></string>
+    <string name="correo_show"></string>
+    <string name="direccion_show"></string>
+    <string name="telefono_show"></string>
+    <!-- termina -->
+
+    <!-- modificar -->
+    <string name="modificar_titulo">Modificar Contacto</string>
+    <string name="label_nombre_mod">Cambiar Nombre</string>
+    <string name="caja_nombre_mod"></string>
+    <string name="label_apellido_mod">Cambiar Apellido</string>
+    <string name="caja_apellido_mod"></string>
+    <string name="label_correo_mod">Cambiar Correo</string>
+    <string name="caja_correo_mod"></string>
+    <string name="label_fisica_mod">Cambiar Direccion Fisica</string>
+    <string name="caja_fisica_mod"></string>
+    <string name="label_telefono_mod">Cambiar Telefono</string>
+    <string name="caja_telefono_mod"></string>
+    <string name="modificar">Modificar</string>
+    <!-- termina -->
+
+</resources>

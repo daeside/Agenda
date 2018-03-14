@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.luis.agenda.Modificar">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/modificar_titulo"
+            android:layout_width="350dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="@string/modificar_titulo"
+            android:gravity="center"
+            android:textColor="@color/titulos"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/label_nombre_mod"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_alignStart="@+id/caja_nombre_mod"
+            android:layout_below="@+id/modificar_titulo"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text="@string/label_nombre_mod"
+            android:textColor="@color/titulos"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/caja_nombre_mod"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/modificar_titulo"
+            android:layout_below="@+id/label_nombre_mod"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/caja_nombre_mod" />
+
+        <TextView
+            android:id="@+id/label_apellido_mod"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_alignStart="@+id/label_nombre_mod"
+            android:layout_below="@+id/caja_nombre_mod"
+            android:layout_marginTop="10dp"
+            android:text="@string/label_apellido_mod"
+            android:gravity="left"
+            android:textColor="@color/titulos"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/caja_apellido_mod"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/caja_nombre_mod"
+            android:layout_below="@+id/label_apellido_mod"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/caja_apellido_mod" />
+
+        <TextView
+            android:id="@+id/label_correo_mod"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_alignStart="@+id/label_nombre_mod"
+            android:layout_below="@+id/caja_apellido_mod"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text="@string/label_correo_mod"
+            android:textColor="@color/titulos"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/caja_correo_mod"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/caja_nombre_mod"
+            android:layout_below="@+id/label_correo_mod"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/caja_correo_mod" />
+
+        <TextView
+            android:id="@+id/label_fisica_mod"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_alignStart="@+id/label_nombre_mod"
+            android:layout_below="@+id/caja_correo_mod"
+            android:layout_marginTop="10dp"
+            android:text="@string/label_fisica_mod"
+            android:gravity="left"
+            android:textColor="@color/titulos"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/caja_fisica_mod"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/caja_nombre_mod"
+            android:layout_below="@+id/label_fisica_mod"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/caja_fisica_mod" />
+
+        <TextView
+            android:id="@+id/label_telefono_mod"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_alignStart="@+id/label_nombre_mod"
+            android:layout_below="@+id/caja_fisica_mod"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text="@string/label_telefono_mod"
+            android:textColor="@color/titulos"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/caja_telefono_mod"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/caja_nombre_mod"
+            android:layout_below="@+id/label_telefono_mod"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/caja_telefono_mod" />
+
+        <Button
+            android:id="@+id/guardar"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="@color/modificar_fondo"
+            android:onClick="Agregar"
+            android:text="@string/guardar"
+            android:textColor="@color/modificar_texto"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

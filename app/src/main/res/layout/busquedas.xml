@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.luis.agenda.Buscar">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/busqueda_titulo"
+            android:layout_width="350dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/busqueda_titulo"
+            android:textColor="@color/titulos"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label_buscar"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_alignStart="@+id/busqueda_titulo"
+            android:layout_below="@+id/busqueda_titulo"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/label_buscar"
+            android:gravity="left"
+            android:textColor="@color/titulos"
+            android:textSize="17dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/caja_buscar"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/busqueda_titulo"
+            android:layout_below="@+id/label_buscar"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/caja_buscar"
+            android:layout_marginStart="10dp" />
+
+        <Button
+            android:id="@+id/boton_buscar"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_alignStart="@+id/id_show"
+            android:layout_below="@+id/caja_buscar"
+            android:layout_marginTop="14dp"
+            android:background="@color/modificar_fondo"
+            android:onClick="Buscar"
+            android:text="@string/boton_buscar"
+            android:textColor="@color/modificar_texto"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/boton_limpiar"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_above="@+id/id_show"
+            android:layout_alignEnd="@+id/id_show"
+            android:background="@color/alta_fondo"
+            android:onClick="Limpiar"
+            android:text="@string/boton_limpiar"
+            android:textColor="@color/alta_texto"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/id_show"
+            android:layout_width="320dp"
+            android:layout_height="25dp"
+            android:layout_alignStart="@+id/label_buscar"
+            android:layout_below="@+id/boton_buscar"
+            android:text="@string/id_show"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:textColor="@color/titulos"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/nombre_show"
+            android:layout_width="320dp"
+            android:layout_height="25dp"
+            android:layout_alignStart="@+id/id_show"
+            android:layout_below="@+id/id_show"
+            android:text="@string/nombre_show"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:textColor="@color/titulos"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/apellido_show"
+            android:layout_width="320dp"
+            android:layout_height="25dp"
+            android:layout_alignStart="@+id/nombre_show"
+            android:layout_below="@+id/nombre_show"
+            android:text="@string/apellido_show"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:textColor="@color/titulos"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/correo_show"
+            android:layout_width="320dp"
+            android:layout_height="25dp"
+            android:layout_alignStart="@+id/apellido_show"
+            android:layout_below="@+id/apellido_show"
+            android:text="@string/correo_show"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:textColor="@color/titulos"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/direccion_show"
+            android:layout_width="320dp"
+            android:layout_height="25dp"
+            android:layout_alignStart="@+id/correo_show"
+            android:layout_below="@+id/correo_show"
+            android:text="@string/direccion_show"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:textColor="@color/titulos"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/telefono_show"
+            android:layout_width="320dp"
+            android:layout_height="25dp"
+            android:layout_alignStart="@+id/direccion_show"
+            android:layout_below="@+id/direccion_show"
+            android:text="@string/telefono_show"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:textColor="@color/titulos"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/modificar_contacto"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_alignStart="@+id/telefono_show"
+            android:layout_below="@+id/telefono_show"
+            android:layout_marginTop="25dp"
+            android:background="@color/buscar_fondo"
+            android:onClick="Cambios"
+            android:text="@string/modificar_contacto"
+            android:textColor="@color/buscar_texto"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/borrar_contacto"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_alignBaseline="@+id/modificar_contacto"
+            android:layout_alignBottom="@+id/modificar_contacto"
+            android:layout_alignEnd="@+id/telefono_show"
+            android:background="@color/borrar_fondo"
+            android:onClick="Bajas"
+            android:text="@string/borrar_contacto"
+            android:textColor="@color/borrar_texto"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
